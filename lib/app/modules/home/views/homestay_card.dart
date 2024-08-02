@@ -48,14 +48,20 @@ class HomestayCard extends StatelessWidget {
                       crossAxisAlignment:
                           CrossAxisAlignment.start, // Align text to the left
                       children: [
-                        Text(
-                          'Wiantoko Homestay',
-                          style: GoogleFonts.poppins(
-                            textStyle: const TextStyle(
-                              fontSize: 15,
-                              fontWeight: FontWeight.bold,
+                        Row(
+                          children: [
+                            Text(
+                              'Bukit Cinta',
+                              style: GoogleFonts.poppins(
+                                textStyle: const TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
                             ),
-                          ),
+                            const Spacer(),
+                            const Text('1,3 km', style: TextStyle(fontSize: 12, color: Color(0xFF8BC342)),)
+                          ],
                         ),
                         const SizedBox(
                             height: 5), // Add some spacing between the texts

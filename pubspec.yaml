@@ -10,9 +10,13 @@ dependencies:
   get: 4.6.6
   google_fonts: 6.1.0
   carousel_slider: 4.2.1
-  rive: 0.12.4
   timeline_tile: 2.0.0
   floating_bottom_navigation_bar: 1.5.2
+  flutter_datetime_picker: 1.5.1
+  intl: 0.19.0
+  slide_countdown: 1.6.1
+  dotted_line: 3.2.2
+  font_awesome_flutter: 10.7.0
   flutter: 
     sdk: flutter
 
@@ -23,6 +27,6 @@ dev_dependencies:
 
 flutter: 
   assets: 
-    - assets/animated_icon_set_-_1_color.riv
+    - assets/
   uses-material-design: true
 

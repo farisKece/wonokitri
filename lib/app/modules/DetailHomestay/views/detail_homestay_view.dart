@@ -75,7 +75,7 @@ class DetailHomestayView extends GetView<DetailHomestayController> {
                       child: Row(
                         children: [
                           Text(
-                            'Wiantoko Homestay',
+                            'Bukit Cinta',
                             style: GoogleFonts.poppins(
                                 textStyle: const TextStyle(
                                     color: Colors.white,

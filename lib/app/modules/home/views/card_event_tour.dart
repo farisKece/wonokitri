@@ -18,8 +18,9 @@ class CardEvent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: Get.width * .65,
-      height: 200,
+      // width: Get.width * .65,
+      width: 235,
+      // height: 200,
       // color: Colors.red,
       child: Card(
         elevation: 7,
@@ -29,7 +30,7 @@ class CardEvent extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                width: Get.width * .6,
+                width: Get.width * .7,
                 height: Get.width * .3,
                 // color: Colors.red,
                 decoration: BoxDecoration(

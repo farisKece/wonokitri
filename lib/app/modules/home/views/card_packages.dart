@@ -16,7 +16,7 @@ class CardPackages extends StatelessWidget {
       onTap: () => Get.toNamed(Routes.DETAIL_TOUR_PACKAGE),
       child: SizedBox(
         width: Get.width * .65,
-        height: 200,
+        // height: 300,
         // color: Colors.red,
         child: Card(
           elevation: 7,
@@ -26,7 +26,7 @@ class CardPackages extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  width: Get.width * .6,
+                  width: Get.width * .75,
                   height: Get.width * .3,
                   // color: Colors.red,
                   decoration: BoxDecoration(

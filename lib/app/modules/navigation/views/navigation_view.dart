@@ -31,13 +31,13 @@ class NavigationView extends GetView<NavigationController> {
                 icon: Icons.home,
               ),
               FloatingNavbarItem(
-                icon: Icons.bookmark,
+                icon: Icons.explore,
               ),
               FloatingNavbarItem(
                 icon: Icons.location_pin,
               ),
               FloatingNavbarItem(
-                icon: Icons.payment_rounded,
+                icon: Icons.window,
               ),
               FloatingNavbarItem(
                 icon: Icons.person,
