@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:wonokitri/app/routes/app_pages.dart';
 
 import '../controllers/settings_controller.dart';
 

@@ -10,7 +10,6 @@ class ETicketView extends GetView<ETicketController> {
   const ETicketView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    final isShowDialog = Get.arguments;
     return Scaffold(
         body: SafeArea(
             child: SingleChildScrollView(
