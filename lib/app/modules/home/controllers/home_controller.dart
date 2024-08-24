@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:wonokitri/app/modules/home/views/dialog.dart';
 
 class HomeController extends GetxController {
   final RxBool isSavedTourPackage = false.obs;
@@ -24,5 +25,9 @@ class HomeController extends GetxController {
     homeC = TextEditingController();
     carouselController = CarouselController();
     super.onInit();
+  }
+
+  Future<bool> onExitOfApp() async {
+    return Dialogs.exitDialog();
   }
 }

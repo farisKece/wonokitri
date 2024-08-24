@@ -29,7 +29,7 @@ class NavigationController extends GetxController {
   }
 
   final screens = [
-    const HomeView(),
+    HomeView(),
     const ExploreView(),
     const MapsScreenView(),
     const FeatureScreenView(),
